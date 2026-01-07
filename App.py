@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import os
 
-APP_PASSWORD = st.secrets["APP_PASSWORD"]
+APP_PASSWORD = "Test"
 
 # Eingabe
 password = st.text_input("Passwort eingeben:", type="password")
