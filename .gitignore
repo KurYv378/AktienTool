@@ -1,0 +1,37 @@
+# ========================
+# Streamlit Secrets (Passwörter, lokal)
+# ========================
+.streamlit/secrets.toml
+
+# ========================
+# Python Cache und Bytecode
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# Virtuelle Umgebungen
+# ========================
+venv/
+env/
+.venv/
+.env/
+
+# ========================
+# VS Code Dateien / Einstellungen
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# Jupyter Notebook Checkpoints
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Logs / Temp Dateien
+# ========================
+*.log
+*.tmp
